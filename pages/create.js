@@ -17,7 +17,7 @@ export default function Create() {
     const keyboardsContract = getKeyboardsContract(ethereum);
     
 
-    const contractAddress = '0xce440e70963ce1e293253Bd9f5DAB836686c2203';
+    const contractAddress = '0xbB0f7446E74faBed6C23527d8C64DdD7A795565b';
     const contractABI = abi.abi;
 
     const handleAccounts = (accounts) => {
