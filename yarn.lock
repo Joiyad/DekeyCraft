@@ -829,6 +829,20 @@
   dependencies:
     "antlr4ts" "^0.5.0-alpha.4"
 
+"@splinetool/react-spline@^2.2.1":
+  "integrity" "sha512-GDVYDEhYn9AjUbOWMpg2qIAtH3yYuw0itiG/lcNv5H1WZ5R3E3TjcNvyVou2td/16DW9m03N5cI/WVKGgsSFxg=="
+  "resolved" "https://registry.npmjs.org/@splinetool/react-spline/-/react-spline-2.2.1.tgz"
+  "version" "2.2.1"
+  dependencies:
+    "react-merge-refs" "^1.1.0"
+
+"@splinetool/runtime@*", "@splinetool/runtime@^0.9.82":
+  "integrity" "sha512-NajzpEUQSsiVjhOScM6XsTkHCcCKHAODX8+z05hU9Lk4j4eOG2skyKge5FAOyPZjMt4d6trHyyQQXMOKX1W2qw=="
+  "resolved" "https://registry.npmjs.org/@splinetool/runtime/-/runtime-0.9.82.tgz"
+  "version" "0.9.82"
+  dependencies:
+    "on-change" "^4.0.0"
+
 "@szmarczak/http-timer@^1.1.2":
   "integrity" "sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA=="
   "resolved" "https://registry.npmjs.org/@szmarczak/http-timer/-/http-timer-1.1.2.tgz"
@@ -7131,6 +7145,11 @@
   dependencies:
     "http-https" "^1.0.0"
 
+"on-change@^4.0.0":
+  "integrity" "sha512-Gxmr/8NsLTigoUUEPvnAIUGl7uxwfC3Mm1G+qTmODEZcT4ZGfeaFyQgfGCdbKVS2pICIFYB82RH6MUHToPcS4Q=="
+  "resolved" "https://registry.npmjs.org/on-change/-/on-change-4.0.1.tgz"
+  "version" "4.0.1"
+
 "on-finished@2.4.1":
   "integrity" "sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg=="
   "resolved" "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz"
@@ -7814,7 +7833,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@^17.0.2", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>=16", "react-dom@17.0.2":
+"react-dom@^17.0.2", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>=16", "react-dom@>=17.0.0", "react-dom@17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -7840,12 +7859,17 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
 
+"react-merge-refs@^1.1.0":
+  "integrity" "sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ=="
+  "resolved" "https://registry.npmjs.org/react-merge-refs/-/react-merge-refs-1.1.0.tgz"
+  "version" "1.1.0"
+
 "react-refresh@0.8.3":
   "integrity" "sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg=="
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@^17.0.2 || ^18.0.0-0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16", "react@17.0.2":
+"react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@^17.0.2 || ^18.0.0-0", "react@>= 16", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16", "react@>=17.0.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

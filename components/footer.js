@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className='mx-auto mt-48 text-center'>
+    <footer className='mx-auto mt-12 mb-4 text-center font-semibold text-purple-600'>
       <a
         href='https://www.pointer.gg?utm_source=stackblitz-solidity'
         target='_blank'
@@ -9,7 +9,6 @@ export default function Footer() {
         Made by Joiyad Khan
         <span className=''></span>
       </a>
-      <p><a href='https://creativecommons.org/licenses/by/4.0/' className="underline">CC 4.0</a></p>
     </footer>
   )
 }
